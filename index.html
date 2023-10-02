@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <form method="post" class="row">
+        <div class="col-md-3 sm-12"><label for="url">URL: <input type="url" name="url" id="url"></label></div>
+        <div class="col-md-3 sm-12"><label for="szelesseg">A kép szélessége(px): <input type="number" name="szelesseg" id="szelesseg"></label></div>
+        <div class="col-md-3 sm-12"><label for="vastagsag">A keret vastagsága(px): <input type="number" name="vastagsag" id="vastagsag"></label></div>
+        <div class="col-md-3 sm-12"><label for="szin">A keret színe: <input type="color" name="szin" id="szin"></label></div>        
+      </form>
+      <!--
+      <div class="row">
+        <div class="col d-grid gap-2"><button id="btn">Mehet</button></div>
+      </div>
+      -->  
+    </div>
+    <img class="kep" id="img" src="" alt="">
+    <footer>
+      Donkó Hunor Attila 2/14S
+      <button id="btn-sotet" style="text-align: right;">Sötét mód</button>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

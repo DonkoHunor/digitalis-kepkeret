@@ -1,0 +1,19 @@
+.dark-mode{
+  background-color:#505050;
+  color: white;
+}
+
+.default{
+  background-color: white;
+  color: black;
+}
+
+.kep{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+  padding-top: 20px;
+}
